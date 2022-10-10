@@ -149,8 +149,11 @@
     align-items: baseline;
   }
   .logo-and-list {
-    margin-left: 0;
-    padding-left: 76px;
+    // margin-left: 0;
+    // padding-left: 76px;
+
+    margin: 0 auto;
+    margin-left: 30px;
   }
   .subtitle-and-icons {
     padding-right: 89px;
@@ -159,6 +162,11 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
+  }
+  .footer-map {
+    width: 232px;
+    display: block;
+    // margin-left: -35px;
   }
 }
 

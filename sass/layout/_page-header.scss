@@ -1,6 +1,5 @@
 .page-header {
   border-bottom: 1px solid #ececec;
-  padding-top: 16px;
 }
 .page-header-container {
   display: flex;
@@ -103,7 +102,7 @@
     border-radius: 2px;
     height: 4px;
     position: absolute;
-    margin-top: 28px;
+    margin-top: 20px;
   }
 
   .mail-icon-item {
@@ -118,13 +117,17 @@
 
 @media screen and (min-width: 1200px) {
   .contacts-list-item {
-    margin-bottom: 0%;
+    margin-bottom: 0;
   }
   .contacts {
     display: flex;
     justify-content: flex-end;
     align-items: baseline;
     column-gap: 30px;
+  }
+
+  .current.hov::after {
+    margin-top: 20px;
   }
 }
 
