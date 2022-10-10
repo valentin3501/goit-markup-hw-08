@@ -1,0 +1,21 @@
+@import './utils/variables';
+@import './utils/visually-hidden.scss';
+@import './utils/align';
+@import './utils/font';
+
+@import './components/backdrop';
+@import './components/modal-window';
+@import './components/mobile-menu';
+
+@import './base/common';
+@import './base/container';
+@import './base/section';
+
+@import './layout/page-header.scss';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/work';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/portfolio';
